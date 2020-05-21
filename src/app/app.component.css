@@ -1,3 +1,35 @@
-p {
-  font-family: Lato;
+.add{
+    background: purple;
+    padding: 5px 15px;
+    color: #FFF;
+    border-radius: 5px;
+    border: none;
+
+}
+.note-name{
+    display: flex; align-items: center;
+}
+.note-name input{
+    margin: 0 10px 0 0;
+}
+.note-container{
+    width: 300px;
+    padding-top: 30px;
+}
+.input{
+    padding: 8px;
+    border: 1px #e8e8e8 solid;
+    margin: 0 15px 0 0;
+}
+.notes{
+
+}
+ul{
+    background: #f1f1f1; border: 1px #e8e8e8 solid; margin: 10px 0 0 0; padding: 0; list-style: none;
+}
+li{
+    display: flex; justify-content: space-between; padding: 8px; border-bottom: 1px #e8e8e8 solid; align-items: center;
+}
+.delete{
+    background: darkred; padding: 8px 15px; color: #FFF; border-radius: 5px; border: none;
 }
